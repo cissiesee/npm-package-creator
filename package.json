@@ -1,0 +1,15 @@
+{
+  "name": "npm-package-creator",
+  "version": "1.0.0",
+  "description": "npm application genarator",
+  "main": "bin/npm-package",
+  "bin": {
+    "npm-package": "./bin/npm-package"
+  },
+  "author": "huangzt",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "fs-extra": "^2.0.0"
+  }
+}

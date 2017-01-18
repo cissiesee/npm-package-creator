@@ -1,0 +1,23 @@
+{
+  "name": "npm-package-name",
+  "version": "1.0.0",
+  "description": "npm package description",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --progress --colors --watch -dev",
+    "test": "mocha --compilers js:babel-core/register --colors ./test/*.spec.js",
+    "test:watch": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+  },
+  "author": "huangzt",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "webpack": "^1.14.0"
+  }
+}
