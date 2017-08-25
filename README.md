@@ -1,7 +1,6 @@
-#npm package creator#
-##using webpack umd##
-
-###npm install###
-###npm link###
-###to other local directory###
-###npm-package###
+# npm package creator
+## using webpack umd
+### npm install
+### npm link
+### to other local directory
+### npm-package
