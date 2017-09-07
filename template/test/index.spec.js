@@ -1,15 +1,16 @@
-var mocha = require('mocha');
-var chai = require('chai');
-var lib = require('../src/index');
+import mocha from "mocha";
+import chai from "chai";
+import { fakePrivateVariable } from "../dist/lib";
 
 var expect = chai.expect;
 
-describe('lib function test', function() {
-	it('lib should be a function', function() {
-		expect(typeof lib).to.be.equal('function');
-	});
-	it('should return a certain string', function() {
-		expect(lib()).to.be.equal('Hello npm package');
+describe("lib module test", function () {
+	// it("lib should be a module", function () {
+	// 	expect(typeof lib).to.be.equal("object");
+	// });
+	it("getString should return a string converted", function () {
+		//console.log(lib.myMethod);
+		expect(fakePrivateVariable).to.be.equal("test");
 	});
 });
 

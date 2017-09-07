@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-creator",
+  "name": "npm-package-generator",
   "version": "1.0.0",
   "description": "npm application genarator",
   "main": "bin/npm-package",
@@ -11,5 +11,9 @@
   "dependencies": {
     "commander": "^2.9.0",
     "fs-extra": "^2.0.0"
+  },
+  "devDependencies": {
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.2"
   }
 }
