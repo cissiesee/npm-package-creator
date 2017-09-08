@@ -4,27 +4,14 @@ import test from "./second";
 /**
  * A variable that is made private via comment.
  */
-export let fakePrivateVariable = test;
-
-/**
- * A variable that is made protected via comment.
- */
-export let fakeProtectedVariable = "test";
+export const fakePrivateVariable = test;
 
 /**
  * A function that is made private via comment.
  */
-function _fakePrivateFunction() { }
-
-/**
- * A function that is made private via comment.
- */
-export function fakePrivateFunction() { }
-
-/**
- * A function that is made protected via comment.
- */
-export function fakeProtectedFunction() { }
+export function fakeFunction(str: string): string {
+    return str + "2";
+}
 
 /**
  * A class that is documented as being private.

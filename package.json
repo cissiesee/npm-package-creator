@@ -1,5 +1,5 @@
 {
-  "name": "npm-package-generator",
+  "name": "lk-npm-package-generator",
   "version": "1.0.0",
   "description": "npm application genarator",
   "main": "bin/npm-package",

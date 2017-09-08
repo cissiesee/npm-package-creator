@@ -1,4 +1,9 @@
-## 操作指南
+## 使用指南
+### 安装
+    npm install lk-lib --save-dev
+### 使用
+    import { } from "lk-lib";
+## 开发指南
 ### 安装依赖包
     npm install
 ### 开发
