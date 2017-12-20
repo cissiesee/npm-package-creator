@@ -1,16 +1,19 @@
 {
-  "name": "lk-npm-package-generator",
-  "version": "1.0.1",
-  "description": "npm application genarator",
-  "main": "bin/npm-package",
+  "name": "lk-npm-package-cli",
+  "version": "1.0.0",
+  "description": "npm application cli",
+  "main": "bin/lk-npm-package",
   "bin": {
-    "npm-package": "./bin/npm-package"
+    "lk-npm-package": "./bin/lk-npm-package"
   },
   "author": "huangzt",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.1.2",
     "commander": "^2.9.0",
-    "fs-extra": "^2.0.0"
+    "ejs": "^2.5.7",
+    "fs-extra": "^2.0.0",
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "tslint": "^5.7.0",

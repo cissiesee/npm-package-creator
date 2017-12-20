@@ -1,8 +1,8 @@
 ## 使用指南
 ### 安装
-    npm install lk-lib --save-dev
+    npm install <%=packageName %> --save-dev
 ### 使用
-    import { } from "lk-lib";
+    import { } from "<%=packageName %>";
 ## 开发指南
 ### 安装依赖包
     npm install

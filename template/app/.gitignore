@@ -2,8 +2,8 @@
 node_modules
 
 # compiled output
-# build
-# release
+build
+release
 
 # IDE - VSCode
 .vscode/*
