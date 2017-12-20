@@ -4,7 +4,7 @@ npm公共库生成器，使用webpack umd
 ### 安装
     npm install lk-npm-package-cli -g
 ### 生成目录结构（在你的目标目录下）
-    npm-package -d <package dir> -n <package name> -a <package author> 
+    lk-npm-package -d <package dir> -n <package name> -a <package author> 
 ### 开发
 查看生成目录中的README.md
 ## 升级记录
