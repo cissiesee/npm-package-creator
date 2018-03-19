@@ -1,6 +1,6 @@
 {
   "name": "lk-npm-package-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npm application cli",
   "main": "bin/lk-npm-package",
   "bin": {

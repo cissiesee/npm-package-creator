@@ -10,6 +10,30 @@
             "es2016"
         ]
     },
+    "awesomeTypescriptLoaderOptions": {
+        "useBabel": true,
+        "babelOptions": {
+            "babelrc": false, /* Important line */
+            "presets": [
+                [
+                    "env",
+                    {
+                        "browsers": [
+                            "last 2 Chrome versions",
+                            "ie >= 8",
+                            "Firefox >= 20",
+                            "iOS 7",
+                            "> 5%"
+                        ]
+                    }
+                ]
+            ],
+            "plugins": [
+                "transform-runtime"
+            ]
+        }
+        //"babelCore": "@babel/core" // needed for Babel v7
+    },
     "files": [
         "./src/index.ts"
     ],

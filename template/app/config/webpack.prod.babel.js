@@ -9,7 +9,7 @@ import { srcDir, outDir, libName } from "./constant";
 
 module.exports = merge(devConfig, {
     output: {
-        path: path.resolve(__dirname, outDir),
+        path: ["core-js", path.resolve(__dirname, outDir)], //按需引入corejs, 如core-js/fn/object/assign
         filename: libName + ".min.js",
         library: libName,
         libraryTarget: "umd",
@@ -17,6 +17,8 @@ module.exports = merge(devConfig, {
     },
     plugins: [
         new UglifyJsPlugin(),
-        new TypedocWebpackPlugin({}, path.resolve(__dirname, srcDir))
+        new TypedocWebpackPlugin({
+            target: "es6"
+        }, path.resolve(__dirname, srcDir))
     ]
 });

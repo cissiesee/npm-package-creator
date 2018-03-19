@@ -16,11 +16,7 @@ export default {
         rules: [
             {
                 test: /\.tsx?$/,
-                use: [{
-                    loader: "babel-loader"
-                }, {
-                    loader: "ts-loader"
-                }],
+                loader: "awesome-typescript-loader",
                 exclude: /(node_modules|bower_components)/
             }
         ]

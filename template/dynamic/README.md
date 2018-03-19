@@ -8,6 +8,8 @@
     npm install
 ### 开发
     npm run dev
+### 编译
+    npm run es5
 ### 打包
     npm run build
 ### 测试

@@ -9,4 +9,8 @@ npm公共库生成器，使用webpack umd
 查看生成目录中的README.md
 ## 升级记录
 ### 1.0.0
-1.由原来lk-npm-package-generator变更而来
+1. 由原来lk-npm-package-generator变更而来
+
+### 1.0.1
+1. add babel-runtime
+1. add es5 script
